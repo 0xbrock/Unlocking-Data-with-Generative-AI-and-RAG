@@ -1,0 +1,5 @@
+# Local credentials -- the notebooks read these via load_dotenv(dotenv_path='env.txt').
+# Copy env.example.txt into a chapter directory as env.txt and fill in your own keys.
+env.txt
+.env
+.env.*
