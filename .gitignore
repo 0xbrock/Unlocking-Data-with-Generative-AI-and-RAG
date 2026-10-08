@@ -3,3 +3,14 @@
 env.txt
 .env
 .env.*
+
+# Gradio flagging/cache directory (Chapter 6)
+.gradio/
+
+# Artifacts the notebooks generate at run time and then read back in.
+# Chapter 7 cell 10 saves doc2vec_model.bin and cell 11 reloads it;
+# Chapter 11-1 cell 4 writes these three formats and cells 6-9 load them.
+doc2vec_model.bin
+google-2023-environmental-report.docx
+google-2023-environmental-report.html
+google-2023-environmental-report.json
